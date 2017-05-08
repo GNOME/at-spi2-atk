@@ -1,3 +1,11 @@
+What's new in at-spi2-atk 2.24.1:
+
+* Fix position getter for table cells.
+
+* atk-adaptor/bridge: Fix GList handling resulting in memory corruption (bgo#781658).
+
+* Fix use after free when returned objects hold only one ref (bgo#781716).
+
 What's new in at-spi2-atk 2.24.0:
 
 * test: remove atk_table_cell_get_column_index test, as the
