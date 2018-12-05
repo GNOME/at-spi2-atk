@@ -227,7 +227,7 @@ impl_DoAction (DBusConnection * bus, DBusMessage * message, void *user_data)
   return NULL;
 }
 
-DRouteMethod methods[] = {
+static DRouteMethod methods[] = {
   {impl_get_description, "GetDescription"}
   ,
   {impl_get_name, "GetName"}
