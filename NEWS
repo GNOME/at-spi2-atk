@@ -1,3 +1,7 @@
+What's new in at-spi2-atk 2.26.3:
+
+* Fix crash retrieving table header cells.
+
 What's new in at-spi2-atk 2.26.2:
 
 * Fix a couple of cache-related functions so that they don't return
